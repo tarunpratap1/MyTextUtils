@@ -1,0 +1,25 @@
+.accordion-button::after{
+    filter: invert(1);
+  }
+
+  * {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+#preview{
+  word-wrap: break-word;
+}
+
+@media (max-width: 990px){
+  #speakbtn{
+    display: none;
+  }
+  #stopbtn{
+    display: none;
+  }
+  #writebtn{
+    display: none;
+  }
+}
